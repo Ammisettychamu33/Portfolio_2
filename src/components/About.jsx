@@ -53,7 +53,7 @@ export default function About() {
           >
             <div className="about-image-box">
               <div className="about-image-overlay" />
-              <img src="/public/profile.jpg" alt="Chamundeswari Ammisetty" />
+              <img src="/profile.jpg" alt="Profile" />
             </div>
 
             {/* Floating cards */}
