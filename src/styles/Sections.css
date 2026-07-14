@@ -46,6 +46,7 @@
   border-radius: var(--radius-lg);
   padding: 1.2rem 1.5rem;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-shadow: var(--shadow-glow);
   text-align: center;
 }
@@ -74,6 +75,7 @@
   border-radius: var(--radius-lg);
   padding: 1rem;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;

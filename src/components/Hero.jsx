@@ -184,8 +184,8 @@ export default function Hero() {
               <div className="hero-profile-ring-2" />
               <div className="hero-profile-img-container">
                 <img
-                  src="/profile.jpg"
-                  alt="Chamundeswari Ammisetty – MERN Stack Developer"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
+                  alt="Profile"
                   className="hero-profile-img"
                 />
               </div>

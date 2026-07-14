@@ -180,10 +180,15 @@
   border-radius: 50%;
   border: 2px solid transparent;
   background: var(--gradient-primary) border-box;
-  -webkit-mask:
+    -webkit-mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  mask-composite: exclude;
+  mask:
     linear-gradient(white 0 0) padding-box,
     linear-gradient(white 0 0);
   -webkit-mask-composite: destination-out;
+
   mask-composite: exclude;
   animation: spin-slow 8s linear infinite;
 }
@@ -224,6 +229,7 @@
   font-weight: 600;
   color: var(--text-primary);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--shadow-glow);
   display: flex;
   align-items: center;

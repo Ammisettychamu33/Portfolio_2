@@ -53,7 +53,11 @@ export default function About() {
           >
             <div className="about-image-box">
               <div className="about-image-overlay" />
-              <img src="/profile.jpg" alt="Profile" />
+              <img
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
+                alt="Profile"
+                className="hero-profile-img"
+              />
             </div>
 
             {/* Floating cards */}
